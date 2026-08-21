@@ -3,12 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>N. Krishnakumar | Portfolio</title>
+
+    <title>Krishnakumar | Portfolio</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+    <!-- Header -->
     <header>
         <nav>
             <h2>Krishnakumar</h2>
@@ -24,70 +27,175 @@
         </nav>
     </header>
 
+
+    <!-- Home -->
     <section id="home">
-        <h1>Hello, I'm N. Krishnakumar</h1>
-        <h2>BE Computer Science Engineering Student</h2>
-        <p>Welcome to my professional portfolio.</p>
-        <a href="#projects">View My Projects</a>
+
+        <div>
+            <h1>Hi, I'm Krishnakumar</h1>
+
+            <h3>Computer Science Engineering Student</h3>
+
+            <p>
+                Welcome to my professional portfolio.
+                Here you can explore my skills, projects,
+                education and interests in software development.
+            </p>
+
+            <a href="#projects" class="btn">View My Projects</a>
+        </div>
+
     </section>
 
+
+    <!-- About -->
     <section id="about">
+
         <h2>About Me</h2>
+
         <p>
-            I am a Computer Science Engineering student interested in
-            Java development, web development and software projects.
+            I am a Computer Science Engineering student interested
+            in programming, software development and learning new
+            technologies. I enjoy developing projects and improving
+            my technical skills through practical experience.
         </p>
+
     </section>
 
+
+    <!-- Skills -->
     <section id="skills">
+
         <h2>My Skills</h2>
-        <p>Java</p>
-        <p>HTML, CSS, JavaScript</p>
-        <p>MySQL</p>
-        <p>Git & GitHub</p>
-        <p>Python</p>
+
+        <div class="skills">
+
+            <div class="skill">Java</div>
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">MySQL</div>
+            <div class="skill">Git & GitHub</div>
+
+        </div>
+
     </section>
 
+
+    <!-- Projects -->
     <section id="projects">
+
         <h2>My Projects</h2>
 
-        <div>
-            <h3>Currency Converter</h3>
-            <p>Java based currency conversion application.</p>
+        <div class="projects">
+
+            <div class="project">
+                <h3>Currency Converter</h3>
+
+                <p>
+                    A Java-based currency conversion application
+                    designed to convert values between different
+                    currencies.
+                </p>
+
+            </div>
+
+
+            <div class="project">
+                <h3>Online Quiz Application</h3>
+
+                <p>
+                    A Java-based quiz application that allows users
+                    to answer questions and view their results.
+                </p>
+
+            </div>
+
+
+            <div class="project">
+                <h3>Banking Application</h3>
+
+                <p>
+                    A Java-based banking management application
+                    for handling basic banking operations.
+                </p>
+
+            </div>
+
+
+            <div class="project">
+                <h3>Vehicle Service Centre</h3>
+
+                <p>
+                    A web-based system for managing customers,
+                    vehicles, service bookings and billing.
+                </p>
+
+            </div>
+
         </div>
 
-        <div>
-            <h3>Banking Application</h3>
-            <p>Java and MySQL based banking management system.</p>
-        </div>
-
-        <div>
-            <h3>Online Quiz Application</h3>
-            <p>Java based online quiz application.</p>
-        </div>
-
-        <div>
-            <h3>Vehicle Service Centre Management System</h3>
-            <p>Web based vehicle service management system.</p>
-        </div>
     </section>
 
+
+    <!-- Education -->
     <section id="education">
+
         <h2>Education</h2>
-        <h3>BE Computer Science and Engineering</h3>
-        <p>Computer Science and Engineering Student</p>
+
+        <div class="education">
+
+            <div class="education-item">
+
+                <h3>B.E. Computer Science and Engineering</h3>
+
+                <p>
+                    Computer Science and Engineering
+                </p>
+
+            </div>
+
+        </div>
+
     </section>
 
+
+    <!-- Contact -->
     <section id="contact">
+
         <h2>Contact Me</h2>
-        <p>Email: Your Email</p>
-        <p>GitHub: Your GitHub Profile</p>
-        <p>LinkedIn: Your LinkedIn Profile</p>
+
+        <div class="contact-info">
+
+            <p>
+                Email:
+                <a href="mailto:your-email@example.com">
+                    your-email@example.com
+                </a>
+            </p>
+
+            <p>
+                GitHub:
+                <a href="https://github.com/" target="_blank">
+                    GitHub Profile
+                </a>
+            </p>
+
+        </div>
+
     </section>
 
+
+    <!-- Footer -->
     <footer>
-        <p>© 2026 N. Krishnakumar. All Rights Reserved.</p>
+
+        <p>
+            © <span id="year"></span> Krishnakumar.
+            All Rights Reserved.
+        </p>
+
     </footer>
+
 
     <script src="script.js"></script>
 

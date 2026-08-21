@@ -1,1 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>N. Krishnakumar | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
+<body>
+
+    <header>
+        <nav>
+            <h2>Krishnakumar</h2>
+
+            <div>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#education">Education</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Hello, I'm N. Krishnakumar</h1>
+        <h2>BE Computer Science Engineering Student</h2>
+        <p>Welcome to my professional portfolio.</p>
+        <a href="#projects">View My Projects</a>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am a Computer Science Engineering student interested in
+            Java development, web development and software projects.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>My Skills</h2>
+        <p>Java</p>
+        <p>HTML, CSS, JavaScript</p>
+        <p>MySQL</p>
+        <p>Git & GitHub</p>
+        <p>Python</p>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+
+        <div>
+            <h3>Currency Converter</h3>
+            <p>Java based currency conversion application.</p>
+        </div>
+
+        <div>
+            <h3>Banking Application</h3>
+            <p>Java and MySQL based banking management system.</p>
+        </div>
+
+        <div>
+            <h3>Online Quiz Application</h3>
+            <p>Java based online quiz application.</p>
+        </div>
+
+        <div>
+            <h3>Vehicle Service Centre Management System</h3>
+            <p>Web based vehicle service management system.</p>
+        </div>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <h3>BE Computer Science and Engineering</h3>
+        <p>Computer Science and Engineering Student</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: Your Email</p>
+        <p>GitHub: Your GitHub Profile</p>
+        <p>LinkedIn: Your LinkedIn Profile</p>
+    </section>
+
+    <footer>
+        <p>© 2026 N. Krishnakumar. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
